@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>Jogos Virtual Play</title>
+    <style>
+        body{
+            background-color: black;
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            max-width: 900px;
+            min-width: 280px;
+            
+
+        }
+        .container{
+            position: relative;
+            
+
+        }
+        .legenda{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+        .legenda h1{
+            color: rgba(250, 248, 248, 0.559);
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: lighter;
+
+        }
+        #primeiro{
+        background-color: rgb(34,41,37);
+    
+        color: aliceblue;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        }
+        nav{
+            text-align: center;
+        }
+        
+        nav a{
+            text-decoration: none;
+            padding: 20px;
+            text-align: center;
+            color: aliceblue;
+            font-weight: lighter;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative
+        }
+        nav a::after{
+            content: "";
+            width: 0%;
+            height: 6px;
+            background-color: rgb(34,41,37);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: 0.8s ease-in-out;
+
+        }
+        nav a:hover::after{
+            width: 100%;
+
+        }
+
+
+        
+
+
+    </style>
+</head>
+<body>
+    <h1 id="primeiro">Embarque</h1>
+    <div class="container">
+       <img src="pexels-lucieimage3165335.jpg" alt="">
+       <div class="legenda">
+        <h1>Nossos Catálogos</h1>
+
+       </div>
+            
+    </div>
+    <br><br>
+    <nav>
+        
+            <a href="#">Ação</a></li>
+            <a href="#">Casual</a></li>
+            <a href="#">Esportes</a></li>
+            <a href="#">Aventura</a></li>
+        
+    </nav>
+</body>
+</html>
